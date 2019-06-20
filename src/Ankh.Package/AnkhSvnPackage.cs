@@ -160,7 +160,7 @@ namespace Ankh.VSPackage
             // This event can be used to trigger loading other packages that depend on AnkhSVN
             // 
             // When the use:
-            // [ProvideAutoLoad(AnkhId.AnkhLoadCompleted)]
+            // [ProvideAutoLoad(AnkhId.AnkhLoadCompleted, PackageAutoLoadFlags.BackgroundLoad)]
             // On their package, they load automatically when we are completely loaded
             //
 
